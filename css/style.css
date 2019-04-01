@@ -122,3 +122,6 @@ html, body {
 document {
   cursor: pointer;
 }
+#start-button {
+  cursor: pointer;
+}
