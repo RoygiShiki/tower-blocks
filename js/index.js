@@ -196,7 +196,7 @@ var Game = /** @class */ (function () {
             if (e.keyCode == 32)
                 _this.onAction();
         });
-        document.addEventListener('click', function (e) {
+        document.addEventListener('touchstart', function (e) {
             _this.onAction();
         });
         document.addEventListener('touchstart', function (e) {
